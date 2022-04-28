@@ -13,4 +13,4 @@ original name.
 2. Crate new Cloud groups with (+) in the begining.
 3. Attach AppRoles (from previous step) to new temp Cloud groups.
 
-*Rename to origin name (not in script)
+*Rename to original name (not in script)
