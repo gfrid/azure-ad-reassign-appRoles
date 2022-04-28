@@ -26,7 +26,7 @@ foreach ($i in $groups) {
               foreach ($r in $role) {
                 $appRole = $sp.AppRoles | Where-Object { $_.DisplayName -match "\b$role\b" -and $_.DisplayName -match $acc } 
                 write-host $appRole.DisplayName $appRole.id $assign.PrincipalDisplayName -background green
-                #Remove-AzureADGroupAppRoleAssignment -ObjectId $i.id -AppRoleAssignmentId 
+                #Remove-AzureADGroupAppRoleAssignment -ObjectId $i.id ? -AppRoleAssignmentId ? <-MSFT what is this
              }
             }
          }
