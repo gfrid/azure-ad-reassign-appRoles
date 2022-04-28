@@ -14,9 +14,9 @@ $groups = get-azadgroup -DisplayNameStartsWith "AWS-" | Select DisplayName, Desc
 foreach ($i in $groups) {
 
   $assign = Get-AzureADGroupAppRoleAssignment -ObjectId $i.id 
-       foreach ($text in $assign.PrincipalDisplayName) {
+      # foreach ($text in $assign.PrincipalDisplayName) {
             $separator = "-"
-            $parts = $text.split($separator)
+            $parts = $assign.PrincipalDisplayName.split($separator)
             $acc = $parts[1]
             $role = $parts[2]
             $acc, $role
@@ -30,7 +30,7 @@ foreach ($i in $groups) {
              }
             }
          }
-         }
+       #  }
 
 #ADD NEW APPROLE ASSIGN
 
@@ -38,9 +38,9 @@ $groups = get-azadgroup -DisplayNameStartsWith "+AWS-" | Select DisplayName, Des
 foreach ($i in $groups) {
 
   $assign = Get-AzureADGroupAppRoleAssignment -ObjectId $i.id 
-       foreach ($text in $assign.PrincipalDisplayName) {
+       #foreach ($text in $assign.PrincipalDisplayName) {
             $separator = "-"
-            $parts = $text.split($separator)
+            $parts = $assign.PrincipalDisplayName.split($separator)
             $acc = $parts[1]
             $role = $parts[2]
             $acc, $role
@@ -54,7 +54,7 @@ foreach ($i in $groups) {
              }
             }
          }
-         }
+        # }
 
 #Some TESTS
 
