@@ -12,4 +12,5 @@ original naming.
 Get AppRole IDs and detach them from AD synced AD Groups
 Crate new Cloud groups with (+) in the begining 
 Attach AppRoles (from previous step) to new temp Cloud groups
+
 *Rename to origin name (not in script)
