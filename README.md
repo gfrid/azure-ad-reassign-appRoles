@@ -9,8 +9,8 @@ exisitng AppRoles to them. Once its done you can remove ADSync and rename the ne
 original naming.
 
 # How does it work
-Get AppRole IDs and detach them from AD synced AD Groups
-Crate new Cloud groups with (+) in the begining 
-Attach AppRoles (from previous step) to new temp Cloud groups
+1. Get AppRole IDs and detach them from AD synced AD Groups
+2. Crate new Cloud groups with (+) in the begining 
+3. Attach AppRoles (from previous step) to new temp Cloud groups
 
 *Rename to origin name (not in script)
