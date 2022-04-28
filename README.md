@@ -1,4 +1,4 @@
-# Azure AD - re-assign AppRoles to new Cloud Groups
+# Azure AD PowerShell - Re-assign AppRoles to new cloud groups
 Azure-AD powershell script for removing and re-assigning AppRoles to other/new cloud groups
 
 # Problem and workaround
