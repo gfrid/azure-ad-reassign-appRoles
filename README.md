@@ -2,8 +2,8 @@
 Azure-AD powershell script for removing and re-assigning AppRoles to other/new cloud groups
 
 # Problem and workaround
-If you need to migrate on-prem AD groups to cloud groups there is no easy way to do so
-this script helps to workaround this problem by re-creating groups as 'Cloud Only' groups
+If you need to migrate on-prem AD groups to cloud groups there is no easy way to do it.
+This script helps to workaround this problem by re-creating groups as 'Cloud Only' groups
 removing attached AppRoles of exisitng groups, creating new cloud only groups and attaching 
 exisitng AppRoles to them. Once its done you can remove ADSync and rename the new groups to
 original naming.
