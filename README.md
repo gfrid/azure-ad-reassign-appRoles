@@ -12,5 +12,4 @@ original name.
 1. Get AppRole IDs and detach them from AD synced AD Groups.
 2. Crate new Cloud groups with (+) in the begining.
 3. Attach AppRoles (from previous step) to new temp Cloud groups.
-
-*Rename to original name (not in script)
+4. Rename to original name (not in script)
